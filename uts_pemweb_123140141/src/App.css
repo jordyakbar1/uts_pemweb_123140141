@@ -1,0 +1,177 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100%;
+  background: linear-gradient(180deg, #0b3d91 0%, #1e90ff 100%);
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+}
+
+header p {
+  color: #cce7ff;
+  font-weight: 500;
+}
+
+.top-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 25px;
+}
+
+.unit-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.unit-toggle input {
+  accent-color: #1e90ff;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+ul {
+  background: rgba(255, 255, 255, 0.15);
+  list-style: none;
+  padding: 0;
+  margin-top: 8px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+ul li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background: rgba(255,255,255,0.25);
+}
+
+.main-content {
+  width: 100%;
+  max-width: 800px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.weather-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 15px;
+}
+
+.weather-card img {
+  width: 80px;
+  height: 80px;
+}
+
+.weather-card h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.weather-card p {
+  margin: 2px 0;
+  color: #e0f0ff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+thead {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+tbody tr:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.status-text {
+  margin: 8px 0;
+  font-weight: 600;
+}
+.status-text.error {
+  color: #ffdddd;
+}
+
+.history {
+  margin-top: 25px;
+  text-align: center;
+  color: #cce7ff;
+}
+
+.history ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.history li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 15px;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+}

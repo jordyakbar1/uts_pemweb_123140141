@@ -1,0 +1,39 @@
+{
+  "name": "uts_pemweb_123140141",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplikasi Dasbor Cuaca (Weather Dashboard) untuk UTS Pengembangan Aplikasi Web.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "weather",
+    "openweathermap",
+    "pemweb",
+    "uts"
+  ],
+  "author": "Jordy Anugrah Akbar (123140141)",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
