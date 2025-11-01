@@ -47,7 +47,6 @@ https://vercel.com/jordyakbar1s-projects/uts-pemweb-123140141
 
 
 ## Perubahan tampilan karena tidak bisa menggunakan APi saat  deploy
-![alt text](<Screenshot 2025-11-01 231718.png>)
-
+![alt text](<Screenshot 2025-11-02 005109.png>)
 
 Fitur prediksi tidak dapat digunakan karena datanya dari local saja.
