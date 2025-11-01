@@ -29,9 +29,25 @@ Aplikasi ini memanfaatkan API dari [OpenWeatherMap](https://openweathermap.org/a
 ### Clone repository
 git clone https://github.com/jordyakbar1/uts_pemweb_123140141
 cd uts-pemweb-123140141
+
 npm install
+
 npm start
 
 
-##Tampilan Aplikasi
+
+## Tampilan Aplikasi
 ![alt text](<Screenshot 2025-11-01 231718.png>)
+
+
+
+## LINK DEPLOY
+https://vercel.com/jordyakbar1s-projects/uts-pemweb-123140141
+
+
+
+## Perubahan tampilan karena tidak bisa menggunakan APi saat  deploy
+![alt text](<Screenshot 2025-11-01 231718.png>)
+
+
+Fitur prediksi tidak dapat digunakan karena datanya dari local saja.
